@@ -1,4 +1,4 @@
-﻿![Chatterbox Turbo Image](./Chatterbox-Turbo.jpg)
+![Chatterbox Turbo Image](./Chatterbox-Turbo.jpg)
 
 # Chatterbox TTS
 
@@ -516,4 +516,4 @@ Se vocÃª usar este modelo em pesquisa, por favor cite:
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
