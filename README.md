@@ -2,113 +2,113 @@
 
 # Chatterbox TTS
 
-[![Ouvir demos](https://img.shields.io/badge/ouvir-demos_de_Ã¡udio-blue)](https://resemble-ai.github.io/chatterbox_turbo_demopage/)
+[![Ouvir demos](https://img.shields.io/badge/ouvir-demos_de_êÂ¡udio-blue)](https://resemble-ai.github.io/chatterbox_turbo_demopage/)
 [![HuggingFace Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/ResembleAI/chatterbox-turbo-demo)
-[![AvaliaÃ§Ã£o Podonos](https://static-public.podonos.com/badges/insight-on-pdns-sm-dark.svg)](https://podonos.com/resembleai/chatterbox)
+[![AvaliaêÂ§êÂ£o Podonos](https://static-public.podonos.com/badges/insight-on-pdns-sm-dark.svg)](https://podonos.com/resembleai/chatterbox)
 [![Discord](https://img.shields.io/discord/1377773249798344776?label=entrar%20no%20discord&logo=discord&style=flat)](https://discord.gg/rJq9cRJBJ6)
-[![LicenÃ§a MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-green)](LICENSE)
+[![LicenêÂ§a MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-green)](LICENSE)
 [![Downloads HF](https://img.shields.io/badge/downloads-1M%2B-orange)](https://huggingface.co/ResembleAI)
 [![GitHub Stars](https://img.shields.io/github/stars/resemble-ai/chatterbox?style=flat&label=stars)](https://github.com/resemble-ai/chatterbox)
 
-_Desenvolvido com â™¥ï¸ por <a href="https://resemble.ai" target="_blank"><img width="100" alt="resemble-logo" src="https://github.com/user-attachments/assets/35cf756b-3506-4943-9c72-c05ddfa4e525" /></a>_
+_Desenvolvido com ê¢â¢Â¥ê¯Â¸Â por <a href="https://resemble.ai" target="_blank"><img width="100" alt="resemble-logo" src="https://github.com/user-attachments/assets/35cf756b-3506-4943-9c72-c05ddfa4e525" /></a>_
 
 ---
 
-## O que Ã© o Chatterbox?
+## O que êÂ© o Chatterbox?
 
-**Chatterbox** Ã© uma famÃ­lia de trÃªs modelos de sÃ­ntese de voz (TTS) de cÃ³digo aberto, estado da arte, desenvolvidos pela **Resemble AI**. LanÃ§ado sob licenÃ§a **MIT** (uso comercial livre), o Chatterbox ultrapassou **1 milhÃ£o de downloads** no HuggingFace e superou soluÃ§Ãµes comerciais como ElevenLabs em testes cegos â€” com **63,75% de preferÃªncia dos usuÃ¡rios**.
+**Chatterbox** êÂ© uma famêÂ­lia de trêÂªs modelos de sêÂ­ntese de voz (TTS) de cêÂ³digo aberto, estado da arte, desenvolvidos pela **Resemble AI**. LanêÂ§ado sob licenêÂ§a **MIT** (uso comercial livre), o Chatterbox ultrapassou **1 milhêÂ£o de downloads** no HuggingFace e superou soluêÂ§êÂµes comerciais como ElevenLabs em testes cegos ê¢â¬â com **63,75% de preferêÂªncia dos usuêÂ¡rios**.
 
-### HistÃ³rico de LanÃ§amentos
+### HistêÂ³rico de LanêÂ§amentos
 
 | Data | Evento |
 |------|--------|
-| **Maio 2025** | LanÃ§amento do **Chatterbox** original (500M, inglÃªs, MIT) â€” primeiro TTS open-source com controle de exageraÃ§Ã£o emocional. Atingiu 11.000+ estrelas no GitHub em poucas semanas |
-| **Setembro 2025** | LanÃ§amento do **Chatterbox-Multilingual** (500M, 23 idiomas) |
-| **Dezembro 2025** | LanÃ§amento do **Chatterbox-Turbo** (350M, inglÃªs) â€” avaliaÃ§Ã£o Podonos publicada em 12/12/2025. Superou ElevenLabs em 63,75% de preferÃªncia |
+| **Maio 2025** | LanêÂ§amento do **Chatterbox** original (500M, inglêÂªs, MIT) ê¢â¬â primeiro TTS open-source com controle de exageraêÂ§êÂ£o emocional. Atingiu 11.000+ estrelas no GitHub em poucas semanas |
+| **Setembro 2025** | LanêÂ§amento do **Chatterbox-Multilingual** (500M, 23 idiomas) |
+| **Dezembro 2025** | LanêÂ§amento do **Chatterbox-Turbo** (350M, inglêÂªs) ê¢â¬â avaliaêÂ§êÂ£o Podonos publicada em 12/12/2025. Superou ElevenLabs em 63,75% de preferêÂªncia |
 
 ### Por que escolher o Chatterbox?
 
-| CritÃ©rio | Chatterbox | ElevenLabs / Cartesia |
+| CritêÂ©rio | Chatterbox | ElevenLabs / Cartesia |
 |----------|-----------|----------------------|
-| LicenÃ§a | **MIT (gratuito e comercial)** | ProprietÃ¡rio (pago) |
+| LicenêÂ§a | **MIT (gratuito e comercial)** | ProprietêÂ¡rio (pago) |
 | Voice Clone | **Zero-shot, sem treinamento** | Requer conta paga |
-| Qualidade | **Avaliado superior em testes cegos** | ReferÃªncia de mercado |
-| Self-hosted | **Sim, 100% offline** | NÃ£o |
-| Watermark IA | **Sim (Perth, imperceptÃ­vel)** | NÃ£o |
+| Qualidade | **Avaliado superior em testes cegos** | ReferêÂªncia de mercado |
+| Self-hosted | **Sim, 100% offline** | NêÂ£o |
+| Watermark IA | **Sim (Perth, imperceptêÂ­vel)** | NêÂ£o |
 | Idiomas | **23 idiomas (modelo MTL)** | Varia por plano |
 
 ---
 
-## FamÃ­lia de Modelos
+## FamêÂ­lia de Modelos
 
 <img width="1200" height="600" alt="Podonos Turbo Eval" src="https://storage.googleapis.com/chatterbox-demo-samples/turbo/podonos_turbo.png" />
 
-### âš¡ Comparativo dos Modelos
+### ê¢Å¡Â¡ Comparativo dos Modelos
 
-| Modelo | ParÃ¢metros | Idiomas | Destaques | Melhor Para | Demo | Exemplos |
+| Modelo | ParêÂ¢metros | Idiomas | Destaques | Melhor Para | Demo | Exemplos |
 |:-------|:----------:|:-------:|:----------|:------------|:----:|:--------:|
-| **Chatterbox-Turbo** | **350M** | **InglÃªs** | Tags paralingÃ¼Ã­sticas, 1-step decoder, menor VRAM | Voice agents em tempo real, produÃ§Ã£o | [Demo](https://huggingface.co/spaces/ResembleAI/chatterbox-turbo-demo) | [Ouvir](https://resemble-ai.github.io/chatterbox_turbo_demopage/) |
-| **Chatterbox-Multilingual** | 500M | **23 idiomas** | Zero-shot cloning cross-language, backbone Llama | LocalizaÃ§Ã£o, dublagem, aplicaÃ§Ãµes globais | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS) | [Ouvir](https://resemble-ai.github.io/chatterbox_demopage/) |
-| **Chatterbox** (English) | 500M | InglÃªs | Controles CFG e Exaggeration, backbone Llama | TTS criativo, controle expressivo fino | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox) | [Ouvir](https://resemble-ai.github.io/chatterbox_demopage/) |
+| **Chatterbox-Turbo** | **350M** | **InglêÂªs** | Tags paralingêÂ¼êÂ­sticas, 1-step decoder, menor VRAM | Voice agents em tempo real, produêÂ§êÂ£o | [Demo](https://huggingface.co/spaces/ResembleAI/chatterbox-turbo-demo) | [Ouvir](https://resemble-ai.github.io/chatterbox_turbo_demopage/) |
+| **Chatterbox-Multilingual** | 500M | **23 idiomas** | Zero-shot cloning cross-language, backbone Llama | LocalizaêÂ§êÂ£o, dublagem, aplicaêÂ§êÂµes globais | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS) | [Ouvir](https://resemble-ai.github.io/chatterbox_demopage/) |
+| **Chatterbox** (English) | 500M | InglêÂªs | Controles CFG e Exaggeration, backbone Llama | TTS criativo, controle expressivo fino | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox) | [Ouvir](https://resemble-ai.github.io/chatterbox_demopage/) |
 
 ---
 
-## Arquitetura TÃ©cnica
+## Arquitetura TêÂ©cnica
 
-O pipeline segue dois estÃ¡gios principais:
+O pipeline segue dois estêÂ¡gios principais:
 
 ```
 Texto + Embedding de Voz (256-dim)
-         â”‚
-         â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚   T3 (LLM)          â”‚  GPT2 (Turbo) ou Llama (English/MTL)
-â”‚   Texto â†’ Tokens    â”‚  VocabulÃ¡rio: 704 (EN) / 2454 (MTL)
-â”‚   de Fala @ 25 Hz   â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚   S3Gen (CFM)        â”‚  Flow Matching (Diffusion)
-â”‚   Tokens â†’ Mel       â”‚  1 step (Turbo) ou 10 steps (outros)
-â”‚   Spectrograma       â”‚  Entrada: S3_SR = 16.000 Hz
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚   HiFiGAN Vocoder   â”‚  Mel â†’ Ãudio WAV
-â”‚   SaÃ­da @ 24 kHz    â”‚  S3GEN_SR = 24.000 Hz
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-         â”‚
-         â–¼
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚   Perth Watermark   â”‚  Marca d'Ã¡gua neural imperceptÃ­vel
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+         ê¢ââ
+         ê¢âÂ¼
+ê¢âÅê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âÂ
+ê¢ââ   T3 (LLM)          ê¢ââ  GPT2 (Turbo) ou Llama (English/MTL)
+ê¢ââ   Texto ê¢â â Tokens    ê¢ââ  VocabulêÂ¡rio: 704 (EN) / 2454 (MTL)
+ê¢ââ   de Fala @ 25 Hz   ê¢ââ
+ê¢ââê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âË
+         ê¢ââ
+         ê¢âÂ¼
+ê¢âÅê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âÂ
+ê¢ââ   S3Gen (CFM)        ê¢ââ  Flow Matching (Diffusion)
+ê¢ââ   Tokens ê¢â â Mel       ê¢ââ  1 step (Turbo) ou 10 steps (outros)
+ê¢ââ   Spectrograma       ê¢ââ  Entrada: S3_SR = 16.000 Hz
+ê¢ââê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âË
+         ê¢ââ
+         ê¢âÂ¼
+ê¢âÅê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âÂ
+ê¢ââ   HiFiGAN Vocoder   ê¢ââ  Mel ê¢â â êÂudio WAV
+ê¢ââ   SaêÂ­da @ 24 kHz    ê¢ââ  S3GEN_SR = 24.000 Hz
+ê¢ââê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âË
+         ê¢ââ
+         ê¢âÂ¼
+ê¢âÅê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âÂ
+ê¢ââ   Perth Watermark   ê¢ââ  Marca d'êÂ¡gua neural imperceptêÂ­vel
+ê¢ââê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âË
 ```
 
 ### Detalhes por Componente
 
-**T3 â€” Text-to-Speech-Token:**
+**T3 ê¢â¬â Text-to-Speech-Token:**
 - Backbone: GPT2 (Turbo / 350M) ou Llama (English & MTL / 500M)
-- Taxa de saÃ­da: 25 Hz de tokens de fala
+- Taxa de saêÂ­da: 25 Hz de tokens de fala
 - Condicionado por: tokens de texto + embedding de locutor (256 dims)
-- Treinado em: **500.000 horas de Ã¡udio limpo**
-- VocabulÃ¡rio: 704 tokens (inglÃªs) / 2.454 tokens (multilingual)
+- Treinado em: **500.000 horas de êÂ¡udio limpo**
+- VocabulêÂ¡rio: 704 tokens (inglêÂªs) / 2.454 tokens (multilingual)
 
-**S3Gen â€” Token-to-Audio:**
+**S3Gen ê¢â¬â Token-to-Audio:**
 - Decoder: `CausalMaskedDiffWithXvec` (Flow Matching)
-- Turbo: **1 passo** â€” viabiliza latÃªncia ultra-baixa
-- English/MTL: 10 passos â€” maior qualidade/expressividade
-- Vocoder final: HiFTGenerator â†’ 24 kHz
+- Turbo: **1 passo** ê¢â¬â viabiliza latêÂªncia ultra-baixa
+- English/MTL: 10 passos ê¢â¬â maior qualidade/expressividade
+- Vocoder final: HiFTGenerator ê¢â â 24 kHz
 
 **VoiceEncoder:**
-- Extrai embeddings de 256 dimensÃµes do Ã¡udio de referÃªncia
+- Extrai embeddings de 256 dimensêÂµes do êÂ¡udio de referêÂªncia
 - Condiciona tanto T3 quanto S3Gen
-- ReferÃªncia processada a 16 kHz (S3_SR)
+- ReferêÂªncia processada a 16 kHz (S3_SR)
 
 ---
 
-## InstalaÃ§Ã£o
+## InstalaêÂ§êÂ£o
 
 ### Via pip (recomendado)
 
@@ -116,7 +116,7 @@ Texto + Embedding de Voz (256-dim)
 pip install chatterbox-tts
 ```
 
-### A partir do cÃ³digo-fonte (para desenvolvimento)
+### A partir do cêÂ³digo-fonte (para desenvolvimento)
 
 ```bash
 # Criar ambiente isolado (Python 3.11 recomendado)
@@ -128,11 +128,11 @@ cd chatterbox
 pip install -e .
 ```
 
-> **Nota:** As dependÃªncias estÃ£o fixadas no `pyproject.toml` para garantir consistÃªncia. Desenvolvido e testado em Python 3.11 no Debian 11.
+> **Nota:** As dependêÂªncias estêÂ£o fixadas no `pyproject.toml` para garantir consistêÂªncia. Desenvolvido e testado em Python 3.11 no Debian 11.
 
-### InstalaÃ§Ã£o em hardware Blackwell / CUDA 13.0 (GB10, RTX 50xx)
+### InstalaêÂ§êÂ£o em hardware Blackwell / CUDA 13.0 (GB10, RTX 50xx)
 
-Para GPUs com compute capability â‰¥ 12.0 (Blackwell) usando CUDA 13.0:
+Para GPUs com compute capability ê¢â°Â¥ 12.0 (Blackwell) usando CUDA 13.0:
 
 ```bash
 conda create -yn chatterbox python=3.11
@@ -145,19 +145,19 @@ pip install torch==2.10.0+cu130 torchaudio==2.10.0+cu130 \
 # Chatterbox sem sobrescrever torch
 pip install -e . --no-deps
 
-# DependÃªncias crÃ­ticas (versÃµes obrigatÃ³rias)
+# DependêÂªncias crêÂ­ticas (versêÂµes obrigatêÂ³rias)
 pip install transformers==4.46.3 safetensors==0.5.3 \
     diffusers==0.29.0 "numpy>=1.24.0,<1.26.0" \
     soundfile s3tokenizer resemble-perth
 ```
 
-> **Aviso esperado:** PyTorch 2.10 reporta `UserWarning` sobre compute capability 12.1 vs mÃ¡ximo suportado 12.0. Apenas informativo â€” CUDA funciona normalmente.
+> **Aviso esperado:** PyTorch 2.10 reporta `UserWarning` sobre compute capability 12.1 vs mêÂ¡ximo suportado 12.0. Apenas informativo ê¢â¬â CUDA funciona normalmente.
 
 ---
 
 ## Uso
 
-### Chatterbox-Turbo (InglÃªs, Alta Velocidade)
+### Chatterbox-Turbo (InglêÂªs, Alta Velocidade)
 
 ```python
 import soundfile as sf
@@ -167,21 +167,21 @@ from chatterbox.tts_turbo import ChatterboxTurboTTS
 # Carregar modelo
 model = ChatterboxTurboTTS.from_pretrained(device="cuda")
 
-# GeraÃ§Ã£o simples (voz padrÃ£o)
+# GeraêÂ§êÂ£o simples (voz padrêÂ£o)
 text = "Hello! Welcome to Chatterbox TTS, the fastest open-source voice synthesis."
 wav = model.generate(text)
 
-# Com tags paralingÃ¼Ã­sticas
+# Com tags paralingêÂ¼êÂ­sticas
 text_expressivo = (
     "Hi there! [chuckle] Great to hear from you. "
-    "Let me check that for you [cough] â€” just one moment!"
+    "Let me check that for you [cough] ê¢â¬â just one moment!"
 )
 wav = model.generate(text_expressivo)
 
-# Com clonagem de voz (arquivo de referÃªncia ~10s, mono, 24 kHz)
+# Com clonagem de voz (arquivo de referêÂªncia ~10s, mono, 24 kHz)
 wav = model.generate(text, audio_prompt_path="sua_voz_referencia.wav")
 
-# Salvar Ã¡udio
+# Salvar êÂ¡udio
 audio_np = wav.squeeze().cpu().numpy()
 sf.write("saida.wav", audio_np, model.sr)  # sr = 24000
 ```
@@ -197,9 +197,9 @@ model = ChatterboxTTS.from_pretrained(device="cuda")
 
 text = "This is a test of the Chatterbox English model with expressive controls."
 
-# ParÃ¢metros de expressividade
-# exaggeration: 0.0 (neutro) â†’ 1.0 (muito expressivo), padrÃ£o 0.5
-# cfg_weight: controla aderÃªncia Ã  voz de referÃªncia, padrÃ£o 0.5
+# ParêÂ¢metros de expressividade
+# exaggeration: 0.0 (neutro) ê¢â â 1.0 (muito expressivo), padrêÂ£o 0.5
+# cfg_weight: controla aderêÂªncia êÂ  voz de referêÂªncia, padrêÂ£o 0.5
 wav = model.generate(text, exaggeration=0.7, cfg_weight=0.3)
 
 # Com voz clonada
@@ -218,16 +218,16 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
 model = ChatterboxMultilingualTTS.from_pretrained(device="cuda")
 
-# PortuguÃªs (PT)
-texto_pt = "OlÃ¡! Este Ã© um teste do modelo Chatterbox Multilingual em portuguÃªs."
+# PortuguêÂªs (PT)
+texto_pt = "OlêÂ¡! Este êÂ© um teste do modelo Chatterbox Multilingual em portuguêÂªs."
 wav = model.generate(texto_pt, language_id="pt")
 
-# FrancÃªs
-texto_fr = "Bonjour! Voici un exemple en franÃ§ais avec le modÃ¨le multilingue."
+# FrancêÂªs
+texto_fr = "Bonjour! Voici un exemple en franêÂ§ais avec le modêÂ¨le multilingue."
 wav_fr = model.generate(texto_fr, language_id="fr")
 
 # Espanhol com clone de voz cross-language
-texto_es = "Hola! Este es un ejemplo de clonaciÃ³n de voz entre idiomas."
+texto_es = "Hola! Este es un ejemplo de clonaciêÂ³n de voz entre idiomas."
 wav_clone = model.generate(
     texto_es,
     language_id="es",
@@ -241,9 +241,9 @@ sf.write("saida_pt.wav", audio_np, model.sr)
 
 ---
 
-## Tags ParalingÃ¼Ã­sticas (Turbo)
+## Tags ParalingêÂ¼êÂ­sticas (Turbo)
 
-O modelo Turbo suporta inserÃ§Ã£o nativa de eventos de fala naturais diretamente no texto:
+O modelo Turbo suporta inserêÂ§êÂ£o nativa de eventos de fala naturais diretamente no texto:
 
 | Tag | Efeito |
 |-----|--------|
@@ -257,7 +257,7 @@ O modelo Turbo suporta inserÃ§Ã£o nativa de eventos de fala naturais diretam
 ```python
 text = (
     "Sarah here from support [chuckle], how can I help you today? "
-    "[cough] Sorry about that â€” let me pull up your account."
+    "[cough] Sorry about that ê¢â¬â let me pull up your account."
 )
 wav = model.generate(text, audio_prompt_path="agente_voz.wav")
 ```
@@ -266,9 +266,9 @@ wav = model.generate(text, audio_prompt_path="agente_voz.wav")
 
 ## Idiomas Suportados (Multilingual)
 
-Ãrabe (ar) â€¢ DinamarquÃªs (da) â€¢ AlemÃ£o (de) â€¢ Grego (el) â€¢ **InglÃªs (en)** â€¢ **Espanhol (es)** â€¢ FinlandÃªs (fi) â€¢ **FrancÃªs (fr)** â€¢ Hebraico (he) â€¢ Hindi (hi) â€¢ Italiano (it) â€¢ JaponÃªs (ja) â€¢ Coreano (ko) â€¢ Malaio (ms) â€¢ HolandÃªs (nl) â€¢ NorueguÃªs (no) â€¢ PolonÃªs (pl) â€¢ **PortuguÃªs (pt)** â€¢ Russo (ru) â€¢ Sueco (sv) â€¢ SuaÃ­li (sw) â€¢ Turco (tr) â€¢ ChinÃªs (zh)
+êÂrabe (ar) ê¢â¬Â¢ DinamarquêÂªs (da) ê¢â¬Â¢ AlemêÂ£o (de) ê¢â¬Â¢ Grego (el) ê¢â¬Â¢ **InglêÂªs (en)** ê¢â¬Â¢ **Espanhol (es)** ê¢â¬Â¢ FinlandêÂªs (fi) ê¢â¬Â¢ **FrancêÂªs (fr)** ê¢â¬Â¢ Hebraico (he) ê¢â¬Â¢ Hindi (hi) ê¢â¬Â¢ Italiano (it) ê¢â¬Â¢ JaponêÂªs (ja) ê¢â¬Â¢ Coreano (ko) ê¢â¬Â¢ Malaio (ms) ê¢â¬Â¢ HolandêÂªs (nl) ê¢â¬Â¢ NorueguêÂªs (no) ê¢â¬Â¢ PolonêÂªs (pl) ê¢â¬Â¢ **PortuguêÂªs (pt)** ê¢â¬Â¢ Russo (ru) ê¢â¬Â¢ Sueco (sv) ê¢â¬Â¢ SuaêÂ­li (sw) ê¢â¬Â¢ Turco (tr) ê¢â¬Â¢ ChinêÂªs (zh)
 
-> 23 idiomas no total. Clone de voz cross-language suportado: forneÃ§a referÃªncia em um idioma e gere em outro.
+> 23 idiomas no total. Clone de voz cross-language suportado: forneêÂ§a referêÂªncia em um idioma e gere em outro.
 
 ---
 
@@ -276,100 +276,100 @@ wav = model.generate(text, audio_prompt_path="agente_voz.wav")
 
 ### Como funciona
 
-1. ForneÃ§a um Ã¡udio de referÃªncia (mÃ­nimo **5 segundos**, ideal **10+ segundos**)
-2. O `VoiceEncoder` extrai embedding de 256 dimensÃµes da voz
-3. T3 e S3Gen sÃ£o condicionados pelo embedding â€” **nenhum treinamento necessÃ¡rio**
-4. A voz clonada Ã© gerada em qualquer idioma suportado
+1. ForneêÂ§a um êÂ¡udio de referêÂªncia (mêÂ­nimo **5 segundos**, ideal **10+ segundos**)
+2. O `VoiceEncoder` extrai embedding de 256 dimensêÂµes da voz
+3. T3 e S3Gen sêÂ£o condicionados pelo embedding ê¢â¬â **nenhum treinamento necessêÂ¡rio**
+4. A voz clonada êÂ© gerada em qualquer idioma suportado
 
-### Requisitos do Ã¡udio de referÃªncia
+### Requisitos do êÂ¡udio de referêÂªncia
 
-| ParÃ¢metro | Recomendado |
+| ParêÂ¢metro | Recomendado |
 |-----------|-------------|
-| DuraÃ§Ã£o | 10s+ (mÃ­nimo 5s para Turbo) |
+| DuraêÂ§êÂ£o | 10s+ (mêÂ­nimo 5s para Turbo) |
 | Formato | WAV, mono |
-| Sample rate | 16â€“24 kHz |
-| Qualidade | Sem ruÃ­do de fundo, voz clara |
-| ConteÃºdo | Fala contÃ­nua, sem mÃºsica |
+| Sample rate | 16ê¢â¬â24 kHz |
+| Qualidade | Sem ruêÂ­do de fundo, voz clara |
+| ConteêÂºdo | Fala contêÂ­nua, sem mêÂºsica |
 
-### Extraindo referÃªncia de um vÃ­deo
+### Extraindo referêÂªncia de um vêÂ­deo
 
 ```bash
-# Extrair Ã¡udio de um MP4 (10 segundos, pular os 2 primeiros)
+# Extrair êÂ¡udio de um MP4 (10 segundos, pular os 2 primeiros)
 ffmpeg -i video.mp4 -vn -ac 1 -ar 24000 \
        -ss 2 -t 10 -c:a pcm_s16le referencia.wav
 ```
 
 ---
 
-## ParÃ¢metros de Controle (English / Multilingual)
+## ParêÂ¢metros de Controle (English / Multilingual)
 
-| ParÃ¢metro | PadrÃ£o | DescriÃ§Ã£o |
+| ParêÂ¢metro | PadrêÂ£o | DescriêÂ§êÂ£o |
 |-----------|--------|-----------|
-| `exaggeration` | `0.5` | Intensidade expressiva. `0.7+` para fala dramÃ¡tica |
-| `cfg_weight` | `0.5` | AderÃªncia Ã  voz de referÃªncia. `0.3` melhora ritmo para locutores rÃ¡pidos |
-| `audio_prompt_path` | `None` | Caminho para arquivo WAV de referÃªncia de voz |
-| `language_id` | â€”  | CÃ³digo do idioma (apenas Multilingual) ex: `"pt"`, `"en"`, `"fr"` |
+| `exaggeration` | `0.5` | Intensidade expressiva. `0.7+` para fala dramêÂ¡tica |
+| `cfg_weight` | `0.5` | AderêÂªncia êÂ  voz de referêÂªncia. `0.3` melhora ritmo para locutores rêÂ¡pidos |
+| `audio_prompt_path` | `None` | Caminho para arquivo WAV de referêÂªncia de voz |
+| `language_id` | ê¢â¬â  | CêÂ³digo do idioma (apenas Multilingual) ex: `"pt"`, `"en"`, `"fr"` |
 
 **Dicas:**
 - Para fala neutra e consistente: `exaggeration=0.5, cfg_weight=0.5`
-- Para fala expressiva/dramÃ¡tica: `exaggeration=0.7, cfg_weight=0.3`
-- Se referÃªncia tem ritmo rÃ¡pido: reduza `cfg_weight` para ~0.3
+- Para fala expressiva/dramêÂ¡tica: `exaggeration=0.7, cfg_weight=0.3`
+- Se referêÂªncia tem ritmo rêÂ¡pido: reduza `cfg_weight` para ~0.3
 
 ---
 
 ## Performance e Requisitos de Hardware
 
-### Real-Time Factor (RTF) â€” Benchmark Oficial
+### Real-Time Factor (RTF) ê¢â¬â Benchmark Oficial
 
 | Plataforma | RTF | Contexto |
 |-----------|:---:|----------|
-| RTX 4090 (streaming) | **0,499** | Gera 2Ã— mais rÃ¡pido que o tempo real |
-| ServiÃ§o comercial Resemble AI | â€” | LatÃªncia ao primeiro chunk **<200ms** |
-| ImplementaÃ§Ã£o streaming (open-source) | â€” | ~472ms ao primeiro chunk |
+| RTX 4090 (streaming) | **0,499** | Gera 2êâ mais rêÂ¡pido que o tempo real |
+| ServiêÂ§o comercial Resemble AI | ê¢â¬â | LatêÂªncia ao primeiro chunk **<200ms** |
+| ImplementaêÂ§êÂ£o streaming (open-source) | ê¢â¬â | ~472ms ao primeiro chunk |
 
-> RTF < 1.0 = geraÃ§Ã£o em tempo real. RTF 0,499 = produz 2 segundos de Ã¡udio para cada 1 segundo de processamento.
+> RTF < 1.0 = geraêÂ§êÂ£o em tempo real. RTF 0,499 = produz 2 segundos de êÂ¡udio para cada 1 segundo de processamento.
 
-### LatÃªncia medida (GB10 Blackwell, 128 GB VRAM unificada)
+### LatêÂªncia medida (GB10 Blackwell, 128 GB VRAM unificada)
 
-| Modelo | Carregamento | GeraÃ§Ã£o tÃ­pica | Ãudio gerado |
+| Modelo | Carregamento | GeraêÂ§êÂ£o têÂ­pica | êÂudio gerado |
 |--------|:------------:|:--------------:|:------------:|
 | Turbo | 1.262s (cache) | **~2.7s** | ~7s de fala |
-| Turbo (com clone) | â€” | ~2.9s | ~7s de fala |
-| Multilingual | 749.8s (1Âª vez) | **~4.4s** (PT) | ~6.7s de fala |
+| Turbo (com clone) | ê¢â¬â | ~2.9s | ~7s de fala |
+| Multilingual | 749.8s (1êÂª vez) | **~4.4s** (PT) | ~6.7s de fala |
 | English (500M) | ~similar MTL | ~3-5s | ~6-8s de fala |
 
-> Primeira execuÃ§Ã£o faz download dos modelos (~21 min para Turbo, ~similar para os 500M). ExecuÃ§Ãµes subsequentes usam cache local.
+> Primeira execuêÂ§êÂ£o faz download dos modelos (~21 min para Turbo, ~similar para os 500M). ExecuêÂ§êÂµes subsequentes usam cache local.
 
 ### Requisitos de VRAM
 
-| Uso | VRAM MÃ­nima | Recomendado |
+| Uso | VRAM MêÂ­nima | Recomendado |
 |-----|:-----------:|:-----------:|
-| Turbo (350M) | **4â€“6 GB** | 8 GB |
-| English/MTL (500M) | **8â€“12 GB** | 16 GB |
-| ProduÃ§Ã£o (alta concorrÃªncia) | 16â€“24 GB | 32 GB+ |
+| Turbo (350M) | **4ê¢â¬â6 GB** | 8 GB |
+| English/MTL (500M) | **8ê¢â¬â12 GB** | 16 GB |
+| ProduêÂ§êÂ£o (alta concorrêÂªncia) | 16ê¢â¬â24 GB | 32 GB+ |
 
 ### Plataformas suportadas
-- **NVIDIA CUDA** (recomendado) â€” RTX 3060+ / A4000+ / GB10
+- **NVIDIA CUDA** (recomendado) ê¢â¬â RTX 3060+ / A4000+ / GB10
 - **Apple MPS** (M1/M2/M3)
 - **CPU** (funcional, mas lento)
-- **AMD ROCm** (via builds compatÃ­veis)
+- **AMD ROCm** (via builds compatêÂ­veis)
 
 ---
 
-## Perth Watermarking â€” IA ResponsÃ¡vel
+## Perth Watermarking ê¢â¬â IA ResponsêÂ¡vel
 
-Todo Ã¡udio gerado pelo Chatterbox inclui automaticamente a **marca d'Ã¡gua neural Perth** da Resemble AI â€” imperceptÃ­vel ao ouvido humano, mas detectÃ¡vel por mÃ¡quina.
+Todo êÂ¡udio gerado pelo Chatterbox inclui automaticamente a **marca d'êÂ¡gua neural Perth** da Resemble AI ê¢â¬â imperceptêÂ­vel ao ouvido humano, mas detectêÂ¡vel por mêÂ¡quina.
 
-### CaracterÃ­sticas
-- Sobrevive a compressÃ£o MP3 e ediÃ§Ã£o de Ã¡udio, reamostragem, re-encoding, adiÃ§Ã£o de ruÃ­do e time-stretching
-- PrecisÃ£o de detecÃ§Ã£o prÃ³xima a 100%
-- Dados codificados em regiÃµes inaudÃ­veis do espectro (mascaramento auditivo)
-- Atende requisitos de regulaÃ§Ã£o de conteÃºdo IA
-- DisponÃ­vel como ferramenta independente: [github.com/resemble-ai/perth](https://github.com/resemble-ai/perth)
+### CaracterêÂ­sticas
+- Sobrevive a compressêÂ£o MP3 e ediêÂ§êÂ£o de êÂ¡udio, reamostragem, re-encoding, adiêÂ§êÂ£o de ruêÂ­do e time-stretching
+- PrecisêÂ£o de detecêÂ§êÂ£o prêÂ³xima a 100%
+- Dados codificados em regiêÂµes inaudêÂ­veis do espectro (mascaramento auditivo)
+- Atende requisitos de regulaêÂ§êÂ£o de conteêÂºdo IA
+- DisponêÂ­vel como ferramenta independente: [github.com/resemble-ai/perth](https://github.com/resemble-ai/perth)
 
-> O CEO da Resemble AI, Zohaib Ahmed, prestou testemunho ao **Senado dos EUA** sobre a importÃ¢ncia de watermarking em Ã¡udio sintÃ©tico gerado por IA.
+> O CEO da Resemble AI, Zohaib Ahmed, prestou testemunho ao **Senado dos EUA** sobre a importêÂ¢ncia de watermarking em êÂ¡udio sintêÂ©tico gerado por IA.
 
-### Verificar marca d'Ã¡gua
+### Verificar marca d'êÂ¡gua
 
 ```python
 import perth
@@ -378,40 +378,40 @@ import librosa
 audio, sr = librosa.load("audio_gerado.wav", sr=None)
 watermarker = perth.PerthImplicitWatermarker()
 watermark = watermarker.get_watermark(audio, sample_rate=sr)
-print(f"Marca d'Ã¡gua: {watermark}")  # 0.0 = sem marca, 1.0 = marcado
+print(f"Marca d'êÂ¡gua: {watermark}")  # 0.0 = sem marca, 1.0 = marcado
 ```
 
 ---
 
-## AvaliaÃ§Ãµes de Qualidade
+## AvaliaêÂ§êÂµes de Qualidade
 
-O Chatterbox Turbo foi avaliado via **Podonos** â€” plataforma de avaliaÃ§Ã£o subjetiva reproduzÃ­vel de fala â€” em comparaÃ§Ãµes diretas:
+O Chatterbox Turbo foi avaliado via **Podonos** ê¢â¬â plataforma de avaliaêÂ§êÂ£o subjetiva reproduzêÂ­vel de fala ê¢â¬â em comparaêÂ§êÂµes diretas:
 
-| ComparaÃ§Ã£o | Resultado |
+| ComparaêÂ§êÂ£o | Resultado |
 |-----------|-----------|
-| Chatterbox Turbo vs **ElevenLabs Turbo v2.5** | [Ver relatÃ³rio](https://podonos.com/resembleai/chatterbox-turbo-vs-elevenlabs-turbo) |
-| Chatterbox Turbo vs **Cartesia Sonic 3** | [Ver relatÃ³rio](https://podonos.com/resembleai/chatterbox-turbo-vs-cartesia-sonic3) |
-| Chatterbox Turbo vs **VibeVoice 7B** | [Ver relatÃ³rio](https://podonos.com/resembleai/chatterbox-turbo-vs-vibevoice7b) |
+| Chatterbox Turbo vs **ElevenLabs Turbo v2.5** | [Ver relatêÂ³rio](https://podonos.com/resembleai/chatterbox-turbo-vs-elevenlabs-turbo) |
+| Chatterbox Turbo vs **Cartesia Sonic 3** | [Ver relatêÂ³rio](https://podonos.com/resembleai/chatterbox-turbo-vs-cartesia-sonic3) |
+| Chatterbox Turbo vs **VibeVoice 7B** | [Ver relatêÂ³rio](https://podonos.com/resembleai/chatterbox-turbo-vs-vibevoice7b) |
 
-> **63,75% dos usuÃ¡rios preferiram Chatterbox** ao ElevenLabs em testes cegos independentes.
+> **63,75% dos usuêÂ¡rios preferiram Chatterbox** ao ElevenLabs em testes cegos independentes.
 
 ---
 
 ## Casos de Uso
 
-| Ãrea | AplicaÃ§Ã£o |
+| êÂrea | AplicaêÂ§êÂ£o |
 |------|-----------|
 | **Voice Agents** | Atendimento ao cliente, assistentes virtuais, IVR |
-| **Dublagem** | LocalizaÃ§Ã£o de conteÃºdo audiovisual em mÃºltiplos idiomas |
-| **NarraÃ§Ã£o** | Audiobooks, podcasts, e-learning |
+| **Dublagem** | LocalizaêÂ§êÂ£o de conteêÂºdo audiovisual em mêÂºltiplos idiomas |
+| **NarraêÂ§êÂ£o** | Audiobooks, podcasts, e-learning |
 | **Games & NPCs** | Vozes procedurais com personalidade |
 | **Acessibilidade** | Leitores de tela expressivos, TTS para deficientes visuais |
-| **CriaÃ§Ã£o de ConteÃºdo** | VÃ­deos com narraÃ§Ã£o automÃ¡tica em voz clonada |
-| **Agentes de IA** | LLMs com saÃ­da de voz em tempo real (sub-150ms) |
+| **CriaêÂ§êÂ£o de ConteêÂºdo** | VêÂ­deos com narraêÂ§êÂ£o automêÂ¡tica em voz clonada |
+| **Agentes de IA** | LLMs com saêÂ­da de voz em tempo real (sub-150ms) |
 
 ---
 
-## ImplantaÃ§Ã£o e IntegraÃ§Ãµes
+## ImplantaêÂ§êÂ£o e IntegraêÂ§êÂµes
 
 ### Plataformas de Hospedagem
 - [HuggingFace Spaces](https://huggingface.co/spaces/ResembleAI/chatterbox-turbo-demo)
@@ -423,7 +423,7 @@ O Chatterbox Turbo foi avaliado via **Podonos** â€” plataforma de avaliaÃ�
 ### Self-Hosted com API REST
 ```bash
 # Usando devnen/Chatterbox-TTS-Server
-# API compatÃ­vel com OpenAI, Web UI, processamento de audiobooks
+# API compatêÂ­vel com OpenAI, Web UI, processamento de audiobooks
 git clone https://github.com/devnen/Chatterbox-TTS-Server
 ```
 
@@ -433,9 +433,9 @@ git clone https://github.com/devnen/Chatterbox-TTS-Server
 git clone https://github.com/randombk/chatterbox-vllm
 ```
 
-### VersÃ£o ONNX (cross-platform, sem PyTorch)
+### VersêÂ£o ONNX (cross-platform, sem PyTorch)
 
-O Turbo possui versÃ£o ONNX no HuggingFace, adequada para deployment em hardware sem CUDA:
+O Turbo possui versêÂ£o ONNX no HuggingFace, adequada para deployment em hardware sem CUDA:
 
 ```bash
 # Modelo ONNX: ResembleAI/chatterbox-turbo-ONNX
@@ -444,28 +444,28 @@ O Turbo possui versÃ£o ONNX no HuggingFace, adequada para deployment em hardwa
 
 ---
 
-## Estrutura do RepositÃ³rio
+## Estrutura do RepositêÂ³rio
 
 ```
 chatterbox/
-â”œâ”€â”€ src/chatterbox/
-â”‚   â”œâ”€â”€ tts.py              # ChatterboxTTS (English 500M)
-â”‚   â”œâ”€â”€ tts_turbo.py        # ChatterboxTurboTTS (350M)
-â”‚   â”œâ”€â”€ mtl_tts.py          # ChatterboxMultilingualTTS (500M)
-â”‚   â”œâ”€â”€ models/
-â”‚   â”‚   â”œâ”€â”€ t3/             # Modelo T3 (LLM: GPT2 / Llama)
-â”‚   â”‚   â”œâ”€â”€ s3gen/          # Decoder CFM + HiFiGAN
-â”‚   â”‚   â””â”€â”€ voice_encoder/  # VoiceEncoder (embeddings 256-dim)
-â”‚   â””â”€â”€ data/               # Processamento de Ã¡udio e texto
-â”œâ”€â”€ example_tts.py          # Exemplos de uso TTS
-â”œâ”€â”€ example_vc.py           # Exemplos de voice clone
-â”œâ”€â”€ pyproject.toml          # DependÃªncias fixadas
-â””â”€â”€ README.md               # Este arquivo
+ê¢âÅê¢ââ¬ê¢ââ¬ src/chatterbox/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ tts.py              # ChatterboxTTS (English 500M)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ tts_turbo.py        # ChatterboxTurboTTS (350M)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ mtl_tts.py          # ChatterboxMultilingualTTS (500M)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ models/
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ t3/             # Modelo T3 (LLM: GPT2 / Llama)
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ s3gen/          # Decoder CFM + HiFiGAN
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ voice_encoder/  # VoiceEncoder (embeddings 256-dim)
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ data/               # Processamento de êÂ¡udio e texto
+ê¢âÅê¢ââ¬ê¢ââ¬ example_tts.py          # Exemplos de uso TTS
+ê¢âÅê¢ââ¬ê¢ââ¬ example_vc.py           # Exemplos de voice clone
+ê¢âÅê¢ââ¬ê¢ââ¬ pyproject.toml          # DependêÂªncias fixadas
+ê¢ââê¢ââ¬ê¢ââ¬ README.md               # Este arquivo
 ```
 
-### RepositÃ³rios HuggingFace
+### RepositêÂ³rios HuggingFace
 
-| Modelo | RepositÃ³rio HF |
+| Modelo | RepositêÂ³rio HF |
 |--------|---------------|
 | Turbo (350M) | `ResembleAI/chatterbox-turbo` |
 | English (500M) | `ResembleAI/chatterbox` |
@@ -483,7 +483,7 @@ chatterbox/
 
 ## Agradecimentos
 
-- [Podonos](https://podonos.com) â€” avaliaÃ§Ã£o subjetiva de fala reproduzÃ­vel
+- [Podonos](https://podonos.com) ê¢â¬â avaliaêÂ§êÂ£o subjetiva de fala reproduzêÂ­vel
 - [Cosyvoice](https://github.com/FunAudioLLM/CosyVoice)
 - [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 - [HiFT-GAN](https://github.com/yl4579/HiFTNet)
@@ -492,9 +492,9 @@ chatterbox/
 
 ---
 
-## CitaÃ§Ã£o
+## CitaêÂ§êÂ£o
 
-Se vocÃª usar este modelo em pesquisa, por favor cite:
+Se vocêÂª usar este modelo em pesquisa, por favor cite:
 
 ```bibtex
 @misc{chatterboxtts2025,
@@ -508,12 +508,12 @@ Se vocÃª usar este modelo em pesquisa, por favor cite:
 
 ---
 
-## LicenÃ§a e Aviso Legal
+## LicenêÂ§a e Aviso Legal
 
-**LicenÃ§a MIT** â€” uso comercial e modificaÃ§Ã£o permitidos. Veja [LICENSE](LICENSE) para detalhes.
+**LicenêÂ§a MIT** ê¢â¬â uso comercial e modificaêÂ§êÂ£o permitidos. Veja [LICENSE](LICENSE) para detalhes.
 
-> Este modelo nÃ£o deve ser utilizado para criaÃ§Ã£o de deepfakes, fraudes, personificaÃ§Ã£o nÃ£o autorizada ou qualquer uso malicioso. Todo Ã¡udio gerado contÃ©m marca d'Ã¡gua Perth para rastreabilidade. Os desenvolvedores nÃ£o se responsabilizam por uso indevido.
+> Este modelo nêÂ£o deve ser utilizado para criaêÂ§êÂ£o de deepfakes, fraudes, personificaêÂ§êÂ£o nêÂ£o autorizada ou qualquer uso malicioso. Todo êÂ¡udio gerado contêÂ©m marca d'êÂ¡gua Perth para rastreabilidade. Os desenvolvedores nêÂ£o se responsabilizam por uso indevido.
 
 ---
 
-Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHê TDS - ARCKHÉe
